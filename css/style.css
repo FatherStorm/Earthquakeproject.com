@@ -1,0 +1,62 @@
+   @import "http://ajax.googleapis.com/ajax/libs/yui/2.7.0/build/reset/reset-min.css";
+            body{
+                background:#000 url(/res/Google_Earth.jpg) no-repeat;
+            }   
+            #list,#list div.detail{
+                display:none;
+            }
+            div.round{
+                -moz-border-radius: 15px;
+                border-radius: 15px;
+                border:1px #39a9e9 solid;
+                background-color:#fff;
+                -moz-box-shadow: 1px 1px 1px #999;
+                -webkit-box-shadow: 1px 1px 1px #999;
+                box-shadow: 1px 1px 1px #999;
+                padding:5px 0px 5px 5px;
+                clear:both;
+                width:75%;
+                margin:5px 0px;
+                
+
+
+            }
+          
+            img{
+                margin-right:10px;
+            }
+            #slider{
+
+             float:left;width:80%;
+            }
+            #sliderVal{
+               
+                 float:left;width:2em;
+                  
+            }
+            .set_slider{
+                cursor:pointer;
+            }
+            html, body, #page,table{
+                width:100% !important;
+                height:100% !important;
+            }
+            #list{
+                width:auto;
+                 overflow:auto;
+               overflow-x:hidden;
+            }
+            #toolbar{
+              
+            }
+            #maps{
+               overflow:hidden;
+                width:66%;
+                
+            }
+            #map3d,#map2d{
+                float:left;
+             width:100%;height:100% !important;
+            }
+            
+           
