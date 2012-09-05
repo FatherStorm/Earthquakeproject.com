@@ -155,7 +155,7 @@ class earthquake {
               <br/>Depth: <strong>" . $row['depth'] . "</strong>
               <br/>Reporting Stations: <strong>" . $row['nst'] . "</strong>
               <br/>Data version: <strong>" . $row['version'] . "</strong>
-              <br/>USGS Data: <strong><a  target='usgs' href='http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/{$row['src']}{$row['eqid']}.php'>{$row['src']}{$row['eqid']}</a></strong>
+              <br/>USGS Data: <strong><a  target='usgs' href='http://earthquake.usgs.gov/earthquakes/eventpage/{$row['src']}{$row['eqid']}#summary'>{$row['src']}{$row['eqid']}</a></strong>
               <br style='clear:both;'/></div>";
             $html.=$detail;
             $html.="<br style='clear:both;'/>
